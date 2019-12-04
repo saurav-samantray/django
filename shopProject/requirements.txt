@@ -1,0 +1,4 @@
+django==1.11
+south
+django-shop==0.12
+jsonfield
