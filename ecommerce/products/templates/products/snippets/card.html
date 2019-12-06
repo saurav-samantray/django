@@ -6,7 +6,7 @@
   {% endif %}
   <div class="card-body">
     <h5 class="card-title">{{instance.title}}</h5>
-    <p class="card-text">{{instance.description|truncatewords:12}}</p>
+    <p class="card-text productDesc">{{instance.description}}</p> <!--{{instance.description|truncatewords:12}} -->
     <a href="{{obj.get_absolute_url}}" class="btn btn-primary">View</a>
     <!-- <a href="{% url 'products:detail' slug=instance.slug %}" class="btn btn-warning">URL Shortcut</a> -->
   </div>
