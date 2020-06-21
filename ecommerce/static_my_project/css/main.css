@@ -12,3 +12,9 @@ body{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.rm-p{
+
+	padding-right : 0px;
+	padding-left : 0px;
+}
